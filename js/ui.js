@@ -30,7 +30,6 @@ class UI {
 
             </div>
         `;
-        console.log(user.html_url);
     }
     //Show user repos
     showRepos(repos) {
