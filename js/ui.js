@@ -33,11 +33,11 @@ class UI {
         console.log(user.html_url);
     }
     //Show user repos
-    showRepos(repos){
+    showRepos(repos) {
         let output = '';
-        
+
         repos.forEach(repo => {
-            output +=`
+            output += `
                 <div class="card card-body mb-2">
                     <div class="row">
                         <div class="col-md-6">
@@ -76,9 +76,9 @@ class UI {
         //Insert alert
         container.insertBefore(div, search);
         //Timeout after 3 seconds
-        setTimeout(()=>{
+        setTimeout(() => {
             this.clearAlert()
-        },3000);
+        }, 3000);
     }
     //Clear Alert message
     clearAlert() {
